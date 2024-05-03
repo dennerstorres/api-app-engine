@@ -29,6 +29,10 @@ app.get('/ping', (_req, res) => {
   res.send('Pong 🏓 ')
 })
 
+app.get('/baiano', (_req, res) => {
+  res.send('Pentakill do Brance, sem brincadeira!')
+})
+
 // Articles routes
 
 app.use('/articles', articlesRouter)
