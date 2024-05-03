@@ -30,7 +30,7 @@ app.get('/ping', (_req, res) => {
 })
 
 app.get('/baiano', (_req, res) => {
-  res.send('Pentakill do Brance, sem brincadeira!')
+  res.send('Pentakill do Brance, sem brincadeira! Bau')
 })
 
 // Articles routes
